@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: gray;
+}
+
+.cabecalho{
+    margin: 8px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.372);
+}
+
+.t-principal{
+    font-size: 30px;
+    margin: 15px 10px;
+    color: rgb(45, 31, 31);
+    
+}
+
+.links{
+    background-color: grey;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 8px;
+    padding: 5px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+}
+
+nav > a{
+    margin-right: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+
+.principal{
+    background-color:white;
+    padding: 12px;
+    margin: 9px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.372);
+}
+
+.assuntos{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+}
+
+.titulo-artigo{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.artigo{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.noticias{
+    background-color: rgb(192, 189, 189);
+    padding: 20px 10px;
+}
+
+.autor{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(138, 138, 138, 0.574);
+    padding: 5px;
+}
+
+.final{
+    background-color: black;
+    color: white;
+    padding: 1px;
+    margin: 10px 0px;
+}
+
+.creator{
+    padding: 2px;
+    text-align: center;
+    font-size: 18px;
+}

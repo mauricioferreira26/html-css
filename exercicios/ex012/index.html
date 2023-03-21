@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedado localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <h2>Gol do Deyverson na final da libertadores!</h2>
+    <video preload="metadata" width="560" poster="imagens/gol.capa.jpeg" controls>
+        <source src="midia/gol-da-final.mp4.mp4" type="video/mp4">
+        <source src="midia/gol-final.webm.webm" type="video/webm">
+        <p>Seu navegador não tem reprodutor de vídeos.</p>
+    </video>
+    <p>Clique <a href="midia/gol-da-final.mp4.mp4" target="_blank" download="midia/gol-da-final.mp4.mp4">aqui</a> para baixar o vídeo do gol.</p>
+    
+    <h2>Inserindo vídeos do youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <h2>Inserindo vídeos do vimeo</h2>
+    <iframe src="https://player.vimeo.com/video/278845039?h=db3f60482a&color=ffffff&title=0&byline=0&portrait=0" width="560" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
