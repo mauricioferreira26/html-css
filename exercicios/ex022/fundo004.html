@@ -6,17 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Posicionamento</title>
     <style>
-        body {
-            height: 98vh;
-            border: 1px dashed black;
-            background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+        
+        *{
+            margin: 0px;
+        }
+        .container{
+            height: 97vh;
+            width: 97vw;
+            
+        }
+
+        .container .horizontal{
+            background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');    
+            background-position: center center;
+            background-repeat:repeat-x;
             background-size: 100px;
-            background-repeat: no-repeat;
-            background-position: left;
-        }  
+        }
+
+        .container .vertical{
+            height: 97vh;
+            background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');    
+            background-position: center center;
+            background-repeat:repeat-y;
+            background-size: 100px;
+        }
+
+
     </style>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="horizontal">
+            <div class="vertical">
+            </div>
+        </div>
+    </div>
 </body>
 </html>
