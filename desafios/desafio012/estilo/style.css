@@ -5,25 +5,4 @@
     padding: 0px;
 }
 
-header{
-    
-    background-color: black;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
-header > h1 {
-    margin: px;
-    font-size: 50px;
-
-}
-
-header a{
-    text-decoration: none;
-    color: white;
-}
-
-header a:hover{
-    text-decoration: underline;
-}
+ 
