@@ -10,11 +10,19 @@
     <h1>Exemplo de formularios</h1>
     <form action="#">
         <fieldset>
-            <legend>Esporte favoritos</legend>
+            <legend>Sexo</legend>
+            <label for="masc"><input type="radio" name="sexo" id="masc" value="M">Masculino</label> <br>
+            <label for="fem"><input type="radio" name="sexo" id="fem" value="F">Feminino</label>
         </fieldset>
-        
+        <fieldset>
+            <legend>Esporte favoritos</legend>
+            <label for="fut"><input type="checkbox" name="fut" id="fut"> Futebol</label><br>
+            <label for="bas"><input type="checkbox" name="bas" id="bas"> Basquete</label> <br>
+            <label for="nat"><input type="checkbox" name="nat" id="nat"> Natação</label> <br>
+            <label for="ten"><input type="checkbox" name="ten" id="ten"> Tênis</label> <br>
+        </fieldset>
 
-        <div>
+        <div style="margin: 5px;">
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
         </div>
