@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div{
+            margin: 20px 0px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="" method="get" autocomplete="on">
+        <div>
+            <label for="cor">Cor</label>
+            <input type="color" name="cor" id="cor">
+        </div>
+        <div>
+            <label for="nivel">Nivel de Satisfação</label>
+            <input type="range" name="nivel" id="nivel" min="10" max="100"
+            value="40">
+        </div>
+        <div>
+            <label for="foto">Foto do perfil:</label>
+            <input type="file" name="foto" id="foto">
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
