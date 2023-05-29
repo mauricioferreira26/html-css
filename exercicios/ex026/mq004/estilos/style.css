@@ -36,6 +36,10 @@ h1{
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.62);
 }
 
+img{
+    margin: auto;
+}
+
 #phone{
     display: block;
     margin: auto;
